@@ -396,6 +396,5 @@ class cafe_management():
 
 if __name__ == '__main__':
             cafe_management()
-#     the change goes here and this change is done by devanshu singh 
-dvenashu singh is best 
+
 
