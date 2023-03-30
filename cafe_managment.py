@@ -8,6 +8,7 @@ class cafe_management():
 
 #hello
 
+
         # ============== Total Bill Code =================
 
         def Total_Bill(self):
