@@ -18,7 +18,7 @@ class cafe_management():
                 self.burger_price = 50
                 self.pizza_price = 150
                 self.fries_price = 80
-                self.pepsi_price = 80
+                #self.pepsi_price = 80
                 
                 if self.tea_item.get() != "":
                         self.tea_cost = self.tea_price * int(self.tea_item.get())
@@ -48,10 +48,10 @@ class cafe_management():
                                 self.fries_cost = self.fries_price * int(self.fries_item.get())
                 else:
                         self.fries_cost = 0
-                if self.pepsi_item.get() != "":
-                                self.pepsi_cost = self.pepsi_price * int(self.pepsi_item.get())
-                else:
-                        self.pepsi_cost = 0
+                #if self.pepsi_item.get() != "":
+                #                self.pepsi_cost = self.pepsi_price * int(self.pepsi_item.get())
+                #else:
+                #        self.pepsi_cost = 0
 
 
                 self.Total_Bill = self.pepsi_cost + self.fries_cost + self.pizza_cost +  self.burger_cost + self.cake_cost + self.sandwitch_cost + self.coffee_cost + self.tea_cost 
@@ -221,7 +221,7 @@ class cafe_management():
                 self.cake_item.delete(0,"end")
                 self.fries_item.delete(0,"end")
                 self.pizza_item.delete(0,"end")
-                self.pepsi_item.delete(0,"end")
+                #self.pepsi_item.delete(0,"end")
                 self.items_cost.delete(0,"end")
                 self.service_cost.delete(0,"end")
                 self.sub_cost.delete(0,"end")
@@ -301,10 +301,10 @@ class cafe_management():
                 self.fries_item = Entry(self.frame1,width=7,borderwidth=4,relief=SUNKEN,bg="#248aa2")
                 self.fries_item.place(y=120,x=85)
 
-                self.pepsi = Label(self.frame1,text="Pepsi",font=('verdana',10,'bold'),bg="white")
-                self.pepsi.place(x=3,y=140)
-                self.pepsi_item = Entry(self.frame1,width=7,borderwidth=4,relief=SUNKEN,bg="#248aa2")
-                self.pepsi_item.place(y=140,x=85)
+                #self.pepsi = Label(self.frame1,text="Pepsi",font=('verdana',10,'bold'),bg="white")
+                #self.pepsi.place(x=3,y=140)
+                #self.pepsi_item = Entry(self.frame1,width=7,borderwidth=4,relief=SUNKEN,bg="#248aa2")
+                #self.pepsi_item.place(y=140,x=85)
 
                 # ============ Items Bill =================
 
@@ -396,5 +396,5 @@ class cafe_management():
 if __name__ == '__main__':
             cafe_management()
 #     the change goes here and this change is done by devanshu singh 
-dvenashu singh is best 
+
 
