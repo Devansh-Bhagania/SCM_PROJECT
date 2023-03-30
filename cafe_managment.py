@@ -7,7 +7,14 @@ from tkinter import messagebox
 class cafe_management():
 
 #hello
+<<<<<<< HEAD
         #hjeifsn
+=======
+#hejfbe
+#husbduiw
+
+
+>>>>>>> 92eac219ee0e2fe054c6c9ae50e78243e018728d
         # ============== Total Bill Code =================
 
         def Total_Bill(self):
@@ -395,6 +402,9 @@ class cafe_management():
 
 if __name__ == '__main__':
             cafe_management()
+<<<<<<< HEAD
 #     the change goes here and this change is done by devanshu singh 
+=======
+>>>>>>> 92eac219ee0e2fe054c6c9ae50e78243e018728d
 
 
